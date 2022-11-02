@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 200px 0px 200px;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(126, 219, 231);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(162, 202, 206);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+  }
+  
+
+td, th {
+	border: 0px;
+	text-align: left;
+	padding: 8px;
+	word-wrap:break-word
+}
+
+.checked {
+	color: orange;
+}
+
+h1, h2, h3 {
+	color: #B73E3E;
+}
+
+.button {
+	background-color: #DD5353;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+  .vertical-menu {
+	width: 200px;
+  }
+  
+  .vertical-menu a {
+	background-color: black;
+	color: white  ;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+	background-color:#00bfbf;
+  }
+  
+ 
+  .title-header-color{
+	 color: #d37e7e;
+	 text-align: center;
+	 font-size: 32px;
+  }
+ 
+  .menu{
+	position: fixed;
+	right: 0;
+ }
