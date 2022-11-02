@@ -6,7 +6,7 @@ body {
 h1,
 h2,
 h3 {
-  color: rgb(5, 185, 113);
+  color: brown;
 }
 
 img {
@@ -242,9 +242,9 @@ button {
 }
 
 .menu ul li:hover {
-  background-color: #04AA6D;
+  background-color: brown;
 }
 
 button:hover {
-  background-color: #04AA6D;
+  background-color: brown;
 }

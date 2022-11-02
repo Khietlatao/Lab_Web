@@ -49,8 +49,8 @@ function App() {
       </nav>
       <div class="container">
         <div class="content-1" id="profile">
-          <h1 class="title">Profile</h1>
-          <div class="student">I am a student</div>
+      <h1>Profile</h1>
+      <h2>I'm a student</h2>
         </div>
         <hr />
         <div class="content-2">
@@ -67,9 +67,9 @@ function App() {
           <div class="content-2-right">
             <h2 class="">Details</h2>
             <b>Name:</b>
-            <div>Truong Van Sy</div>
+            <div>Trương Minh Khiết</div>
             <b>Age:</b>
-            <div>23 years</div>
+            <div>21 years</div>
             <b>Location:</b>
             <div>UIT, VNU-HCM</div>
           </div>
@@ -97,12 +97,16 @@ function App() {
           <div class="content-3-bottom">
             <div class="content-3-bottom-left">
               <h3>Working experiences</h3>
-              <b>FPT Software | Backend</b>
+              <b>Facebook | Fresher Engineer</b>
               <div>Sep 2020 - Sep 2021</div>
             </div>
             <div class="content-3-bottom-right">
-              <b>Freelancer</b>
+              <b>Partime - Fresher Web Developer</b>
               <p>Development product about Web application</p>
+            </div>
+            <div class="content-3-bottom-right">
+              <b>Freelancer</b>
+              <p>Working as a Fresher Developer on a dating function on Facebook page. Dating function is an app as Tinder</p>
             </div>
           </div>
         </div>
@@ -120,32 +124,32 @@ function App() {
             </div>
             <div class="content-4-top-center">
               <div class="content-4-top-center-1">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-2">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-3">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-4">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
             </div>
             <div class="content-4-top-right">
@@ -155,25 +159,25 @@ function App() {
             </div>
             <div class="content-4-top-center">
               <div class="content-4-top-center-1">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-2">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill " src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-3">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
             </div>
           </div>
@@ -182,7 +186,7 @@ function App() {
               <i>See my profile on github</i>
             </div>
             <button>
-              <a href="https://github.com/siidev">See project on Github</a>
+              <a href="https://github.com/khietdeptrai">See project on Github</a>
             </button>
           </div>
           <hr />
@@ -190,22 +194,22 @@ function App() {
           <div class="content-4-bottom">
             <div class="content-4-bottom-left">
               <div>Vietnamese (Native)</div>
-              <div>English (TOIEC 700)</div>
+              <div>English (IELTS 6.5)</div>
+              <div>Cat (Mother Tongue)</div>
             </div>
             <div class="content-4-bottom-center">
               <div class="content-4-top-center-1">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-2">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
             </div>
             <div class="content-4-bottom-right">
@@ -214,18 +218,18 @@ function App() {
             </div>
             <div class="content-4-bottom-center">
               <div class="content-4-top-center-1">
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
               <div class="content-4-top-center-2">
-                <img class="skill star" src={star} />
-                <img class="skill star" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
-                <img class="skill" src={star} />
+              <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
               </div>
             </div>
           </div>
