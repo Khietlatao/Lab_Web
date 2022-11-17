@@ -1,9 +1,9 @@
 import './App.css';
 
-import DatingCards from './Components/DatingCards';
+import DatingCards from './Components/datingcard/DatingCards';
 import Header from './Components/header/Header';
 
-import SwipeButton from './Components/SwipeButton';
+import SwipeButton from './Components/swipebutton/SwipeButton';
 
 function App() {
 
