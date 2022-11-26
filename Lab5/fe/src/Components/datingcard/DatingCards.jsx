@@ -34,7 +34,7 @@ const DatingCards = () => {
             onSwipe={(dir) => swiped(dir, person.name)}
           >
             <div style={{ backgroundImage: `url(${person.imgUrl})`}}>
-              <h3>{person.name}</h3>
+              <h3>{"Khiet"}</h3>
             </div>
           </DatingCard>
         ))}
